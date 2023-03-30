@@ -64,7 +64,7 @@ nav span  i{
 }
 .container{
     
-    height: 270px;
+    /* height: 0px; */
     width: 582px;
     margin-top: 100px;
    
@@ -113,7 +113,8 @@ padding-left: 120px;
    } 
 
  .logos{
-display: flex;
+ display: flex;
+
 align-items: center;
  margin-left: 165px;
  margin-right: 165px;
@@ -141,8 +142,8 @@ align-items: center;
     grid-template-columns: repeat(3,1fr);
    grid-column-gap: 30px;
    grid-row-gap:30px ;
-   height: 1488px;
-width: 1047px;
+   /* height: 1488px;
+width: 1047px; */
 margin-left: 196px;
 margin-top: 30px;
 
@@ -214,21 +215,21 @@ color:#E02C6D ;
 /* container small start  */
   .container-small{
     display: flex;
-    height: 270px;
-width: 1110px;
+    /* height: 270px; */
+/* width: 1110px; */
 padding-left: 165px;
 margin-top: 100px;
 
 
   }
   .containersmall-image img{
-    height: 270px;
-    width: 404px;
+    /* height: 270px;
+    width: 404px; */
     
   }
    .container-author{
-    height: 224px;
-    width: 660px;
+    
+    width: 660px; 
     margin-left: 96px;
     margin-top: 10px;
   
@@ -256,7 +257,7 @@ margin-top: 100px;
 /* footer start  */
 .footer{
     border: 1px solid ;
-    height: 239px;
+     /* height: 239px;  */
 
 background-color: #0A0826;
 margin-top: 100px;
@@ -287,6 +288,73 @@ margin-right: 16px;
   font-size: 12px;
   font-weight: 200;
     
+}
+/* media quaries start  */
+
+@media only screen and (max-width:688px) {
+    .top-container{
+        
+      width: 100%; 
+    
+       
+        
+        
+    }
+    .containers{
+        
+   flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+    }
+    .container{
+        
+     
+     
+    
+        
+         
+        
+    
+      
+        
+        
+    }
+    .container-2 .container{
+ 
+       
+
+    }
+    .top-logos{
+       width: 100%; 
+    }
+    .logos{
+      flex-direction: column;
+      column-gap: 20px;
+     
+    }
+    .logo{
+          
+     
+    }
+    .top-projects{
+        width: 100%;
+    }
+    .projects{
+        
+        
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+    .containers-small{
+        width: 100%;
+    }
+    .container-small{
+        
+     
+        flex-direction: column;
+        justify-content: center;
+    }
 }
                                 
  
